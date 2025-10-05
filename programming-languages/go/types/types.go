@@ -13,6 +13,10 @@ func main() {
 	var f32 float32 = 3.14
 	var f64 float64 = 2.7182818284
 
+	// комплексные числа
+	var complex64 complex64 = 1 + 2i
+	var complex128 complex128 = 1 + 2i
+
 	// булевы значения (bool)
 	var truth bool = true
 	var lie bool = false
@@ -38,6 +42,7 @@ func main() {
 
 	fmt.Println("Integers:", i8, u16, i, u)
 	fmt.Println("Floats:", f32, f64)
+	fmt.Println("Complex:", complex64, complex128)
 	fmt.Println("Booleans:", truth, lie)
 	fmt.Println("Strings:", s1)
 	fmt.Println("Rune:", r, string(r))
