@@ -1,4 +1,4 @@
-use testing::lib::add;
+use testing::add;
 
 #[cfg(test)]
 mod tests {
